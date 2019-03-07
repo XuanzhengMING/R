@@ -1,0 +1,9 @@
+echo "# R" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/XuanzhengMING/R.git
+git push -u origin master
+https://www.jianshu.com/p/3946f5d22d71 %transfer language of RStudio to English
+Sys.setenv(LANGUAGE = "en") %transfer language of RStudio to English
+"C:\Program Files\R\R-3.5.2\bin\x64\Rgui.exe" --cd-to-userdocs Language=En % at the end of path type " Language=En" % transfer Rgui to english version.
